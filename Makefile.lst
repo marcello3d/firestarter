@@ -1,0 +1,24 @@
+MODULES = \
+	FireStarter\
+	AllegroGame\
+	AllegroBitmapGame\
+	Main\
+	MainGame\
+	Random\
+	Music\
+	MusicPlayer\
+	Audio\
+	Menu\
+	aatext\
+	partypack/log\
+	partypack/resourcemanager\
+	partypack/sprite\
+	partypack/sprite_animator\
+	partypack/gamepad\
+	partypack/buttons\
+	partypack/bitmap\
+	
+	
+	
+
+OBJS= $(addprefix objs$(DEBUG_DIR)/, $(addsuffix .o, $(MODULES)))
